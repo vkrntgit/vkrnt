@@ -27,8 +27,6 @@ In case you run without ‘&’ (in foreground), use right Ctrl and ‘c’ to t
 Copy and push public folder to deploy to production<br><br>
 
 
-Good training on basics:<br>
-https://www.youtube.com/watch?v=ftiTVitDbx0&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=4
 <br><br>
 
 
@@ -39,5 +37,12 @@ In the individual pages, you don’t need to code the common elements. Jump dire
 
  Save css to src/styles/global.css
 <br><br>
+
+Good training on basics:<br>
+https://www.youtube.com/watch?v=ftiTVitDbx0&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=4
+<br><br>
+
+Other references:
+https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog
 09 Feb 2022
 <br><br><br>

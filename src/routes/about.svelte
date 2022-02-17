@@ -9,6 +9,8 @@ This website is a small side project to research and share the latest in technol
 <br>
 <br>
 Vikrant Payal<br>
+<br>
+<img src=""/>
 </div>
 <style>
     .article{

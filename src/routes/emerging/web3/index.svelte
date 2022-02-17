@@ -21,6 +21,10 @@ It is still highly unlikely that the YouTubes of the world are going away for a 
 
 Reference<br>
 Free Code Camp / Nader Dabit<br>
-https://tals.substack.com/p/reputation-in-web3
+https://tals.substack.com/p/reputation-in-web3<br>
+<br>
+Great place to start:<br>
+https://thirdweb.com/
+<br>
 
 <br><br>
