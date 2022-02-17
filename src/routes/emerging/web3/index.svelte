@@ -1,3 +1,4 @@
+<h2> Web3 </h2>
 What is Web3?<br>
 Web3 is a web app architecture that runs apps on blockchains or decentralized networks (cryptoeconomic protocol).
 This is a whole new way of deploying and accessing apps - very different from the server-to-browser protocol of serving apps (web2).

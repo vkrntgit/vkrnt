@@ -13,7 +13,7 @@
               <li> <a href="/cloud/cleo"> Cleo </a> &nbsp; cross platform integration. </li>
 <br>
               <li> <h3> Telemetry </h3> </li>
-              <li> <a href="/telemetry/apache_skywalk"> Apache Skywalk </a> </li>
+              <li> <a href="/telemetry/apache_skywalking"> Apache Skywalk </a> </li>
 <br>
               <li> <h3>Webdev</h3> </li> 
               <li> <a href="/webdev/svelte">Svelte + Sveltkit</a> &nbsp; A great framework for rapid web app development!</li>
