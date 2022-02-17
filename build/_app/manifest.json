@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-bf9fb3e7.js",
+    "file": "start-da6791fd.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -11,6 +11,7 @@
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/index.svelte",
       "src/routes/telemetry/apache_skywalking/index.svelte",
+      "src/routes/emerging/web3/index.svelte",
       "src/routes/webdev/svelte/index.svelte",
       "src/routes/about.svelte",
       "src/routes/cloud/cleo/index.svelte"
@@ -38,7 +39,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-b6a25b83.js",
+    "file": "pages/index.svelte-c9b99127.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -47,8 +48,17 @@
     ]
   },
   "src/routes/telemetry/apache_skywalking/index.svelte": {
-    "file": "pages/telemetry/apache_skywalking/index.svelte-420bfbff.js",
+    "file": "pages/telemetry/apache_skywalking/index.svelte-06cb85b3.js",
     "src": "src/routes/telemetry/apache_skywalking/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-86ba30b8.js"
+    ]
+  },
+  "src/routes/emerging/web3/index.svelte": {
+    "file": "pages/emerging/web3/index.svelte-c4bd1936.js",
+    "src": "src/routes/emerging/web3/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -77,7 +87,7 @@
     ]
   },
   "src/routes/cloud/cleo/index.svelte": {
-    "file": "pages/cloud/cleo/index.svelte-7f918c1c.js",
+    "file": "pages/cloud/cleo/index.svelte-faf12972.js",
     "src": "src/routes/cloud/cleo/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
