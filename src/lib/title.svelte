@@ -21,4 +21,10 @@
        color: #bdbdbd;
        text-decoration: none;
     }
+
+    tr,td{
+        border-width: 15px;
+        border-style: none;
+        padding: 50px;
+    }
 </style>
