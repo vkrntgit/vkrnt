@@ -23,6 +23,33 @@ Reference<br>
 Free Code Camp / Nader Dabit<br>
 https://tals.substack.com/p/reputation-in-web3<br>
 <br>
+Complete guide / Nader again <br>
+A free and in depth masterclass teaching you everything you need to know to build, test, & deploy full stack dapps – at your own pace with end to end code examples
+
+https://lnkd.in/e7FXpsvP
+
+This guide walks through using and putting together the tools, technologies, and protocols needed for real-world dapp development, including:
+
+The Graph
+Polygon Technology
+IPFS
+Next.js
+Hardhat
+Ethers.js
+
+At around 7,000 words, this is the most in depth tutorial I've written in my career and is, again, writing for myself had I entered the industry today.
+
+This is the fourth post in my web3 series that's now been read over 500,000 times, here are the other three posts in that series:
+
+The Complete Guide to Full Stack Ethereum Development
+https://lnkd.in/gGNNEWR
+
+Building a Full Stack NFT Marketplace on Ethereum with Polygon
+https://lnkd.in/g7539cT
+
+The Complete Guide to Full Stack Solana Development with React, Anchor, Rust, and Phantom
+https://lnkd.in/g94YH57V
+<br>
 Great place to start:<br>
 https://thirdweb.com/
 <br>

@@ -10,10 +10,18 @@
 <br><br><ul>
     
               <li> <h3>Cloud</h3> </li>
-              <li> <a href="/cloud/cleo"> Cleo </a> &nbsp; cross platform integration. </li>
+              <li> <a href="/infrastructure/cloud/cleo"> Cleo </a> &nbsp; cross platform integration. </li>
+<br>
+              <li> <h3> Containerization </h3> </li>
+              <li> <a href="/infrastructure/containerization/docker"> Docker</a> </li>
+              <li> <a href="/infrastructure/containerization/containerd"> Containerd</a> </li>
+              <li> <a href="/infrastructure/containerization/cri.o"> CRI.O</a></li>
 <br>
               <li> <h3> Telemetry </h3> </li>
-              <li> <a href="/telemetry/apache_skywalking"> Apache Skywalk </a> </li>
+              <li> <a href="/telemetry/apache_skywalking"> Apache Skywalking </a> </li>
+<br>
+              <li> <h3> Networking </h3> </li>
+              <li> <a href="/infrastructure/networking/concepts/"> Networking concepts</a> </li>
 <br>
               <li> <h3>Webdev</h3> </li> 
               <li> <a href="/webdev/svelte">Svelte + Sveltkit</a> &nbsp; A great framework for rapid web app development!</li>
