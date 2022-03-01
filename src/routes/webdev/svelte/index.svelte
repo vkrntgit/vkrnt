@@ -32,7 +32,7 @@ Copy and push public folder to deploy to production<br><br>
 
 Save layout to src/routes/__layout.svelte
 This file should have the header, main and footer tags with elements common to all pages.
-Use <slot></slot> for content specific to each page.
+Use &lt; slot &gt;  &nbsp; &lt; /slot &gt; for content specific to each page.
 In the individual pages, you don’t need to code the common elements. Jump directly to components and text specific to that page.
 
  Save css to src/styles/global.css

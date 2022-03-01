@@ -23,6 +23,9 @@
               <li> <h3> Networking </h3> </li>
               <li> <a href="/infrastructure/networking/concepts/"> Networking concepts</a> </li>
 <br>
+              <li> <h3> Development languages </h3> </li>
+              <li> <a href="/development/go"> Go lang </a> </li>
+<br>
               <li> <h3>Webdev</h3> </li> 
               <li> <a href="/webdev/svelte">Svelte + Sveltkit</a> &nbsp; A great framework for rapid web app development!</li>
 <br>
