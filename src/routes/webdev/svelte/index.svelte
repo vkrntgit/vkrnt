@@ -37,7 +37,7 @@ In the individual pages, you don’t need to code the common elements. Jump dire
 
  Save css to src/styles/global.css
 <br><br>
-<h3> Containarize your sveltkit site </hr>
+<h3> Containarize your sveltkit site </h3>
 <br>Create a docker image of svelte kit code.
 <br><br>
 Steps:<br>
