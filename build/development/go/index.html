@@ -3,14 +3,14 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="description" content="" />
-		<link rel="icon" href="../../favicon.png" />
+		<link rel="icon" href="../favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content="">
 	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-47caa073.css">
 	<link rel="modulepreload" href="/_app/start-9b9ab25d.js">
 	<link rel="modulepreload" href="/_app/chunks/vendor-3c7d81a0.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-6ec27c7d.js">
-	<link rel="modulepreload" href="/_app/pages/infrastructure/containerization/containerd/index.svelte-a3b60624.js">
+	<link rel="modulepreload" href="/_app/pages/development/go/index.svelte-7f329284.js">
 	</head>
 	<body>
 		<div>
@@ -20,16 +20,34 @@
               <td class="header_table_td svelte-12w7r4q"><a href="/" class="svelte-12w7r4q">Home   </a></td> 
               <td class="header_table_td svelte-12w7r4q"><a href="/about" class="svelte-12w7r4q">About   </a></td></tr></table></span></div></header>
 
-<main><h2>Containerd </h2></main>
+<main><h2>Go Lang </h2>
+<br>
+A strongly statically typed, compiled language with testing built in. It is faster than Python and has its own interpretation of object oriented development. <br>
+<br>
+<h3>Sample program </h3>
+<br>
+
+<div class="code">package main
+<br><br>
+import &quot;fmt&quot;
+<br><br>
+func main() { 
+<br><br>
+        fmt.Println(&quot;Hello world!&quot;)
+<br><br>
+}  
+<br>
+<br>
+<br></div></main>
 <hr>
 <footer><p>The views expressed on this website are personal and do not represent the opinion of the author&#39;s employer/parent company. Links to third party web sites may be shared on this page. Those sites are unaffiliated with the employer. The employer has not been involved in the preparation of the content supplied at the unaffiliated site and does not guarantee or assume any responsibility for its content. -Vikrant Payal</p>
 </footer>
 
 
-		<script type="module" data-hydrate="1v6gb4r">
+		<script type="module" data-hydrate="1td1rdp">
 		import { start } from "/_app/start-9b9ab25d.js";
 		start({
-			target: document.querySelector('[data-hydrate="1v6gb4r"]').parentNode,
+			target: document.querySelector('[data-hydrate="1td1rdp"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -40,9 +58,9 @@
 				error: null,
 				nodes: [
 					import("/_app/pages/__layout.svelte-6ec27c7d.js"),
-						import("/_app/pages/infrastructure/containerization/containerd/index.svelte-a3b60624.js")
+						import("/_app/pages/development/go/index.svelte-7f329284.js")
 				],
-				url: new URL("http://sveltekit-prerender/infrastructure/containerization/containerd"),
+				url: new URL("http://sveltekit-prerender/development/go"),
 				params: {}
 			}
 		});

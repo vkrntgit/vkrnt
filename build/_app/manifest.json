@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-d742ebc9.js",
+    "file": "start-9b9ab25d.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -15,6 +15,7 @@
       "src/routes/infrastructure/containerization/cri.o/index.svelte",
       "src/routes/infrastructure/networking/concepts/index.svelte",
       "src/routes/infrastructure/cloud/cleo/index.svelte",
+      "src/routes/development/go/index.svelte",
       "src/routes/telemetry/apache_skywalking/index.svelte",
       "src/routes/emerging/web3/index.svelte",
       "src/routes/webdev/svelte/index.svelte",
@@ -43,7 +44,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-febcbba9.js",
+    "file": "pages/index.svelte-86f1d2f3.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -96,6 +97,15 @@
       "_vendor-3c7d81a0.js"
     ]
   },
+  "src/routes/development/go/index.svelte": {
+    "file": "pages/development/go/index.svelte-7f329284.js",
+    "src": "src/routes/development/go/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-3c7d81a0.js"
+    ]
+  },
   "src/routes/telemetry/apache_skywalking/index.svelte": {
     "file": "pages/telemetry/apache_skywalking/index.svelte-6149aee8.js",
     "src": "src/routes/telemetry/apache_skywalking/index.svelte",
@@ -115,7 +125,7 @@
     ]
   },
   "src/routes/webdev/svelte/index.svelte": {
-    "file": "pages/webdev/svelte/index.svelte-3de27445.js",
+    "file": "pages/webdev/svelte/index.svelte-74bb30c2.js",
     "src": "src/routes/webdev/svelte/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,

@@ -37,7 +37,40 @@ In the individual pages, you don’t need to code the common elements. Jump dire
 
  Save css to src/styles/global.css
 <br><br>
-
+<h3> Containarize your sveltkit site </hr>
+<br>Create a docker image of svelte kit code.
+<br><br>
+Steps:<br>
+1. Open package.json. Change adapter-auto to adapter-node<br>
+2. Open package-lock.json. Change adapter-auto to adapter-node<br>
+3. npm run build <br>
+4.  node build <br>
+5. Create Dockerfile <br>
+6. Enter <br>
+<div class="code">    
+    FROM node:16 <br>
+    WORKDIR /app <br>
+    COPY package.json package-lock.json ./ <br>
+    RUN npm ci <br>
+    COPY . . <br>
+    RUN npm build && npm prune --production <br>
+    ENV PORT 5050 <br>
+    EXPOSE 5050 <br>
+    CMD ["node","build"] <br>
+</div> 
+7. Create .dockerignore <br>
+8. Enter these files <br>
+<div class="code">    
+    .git <br>
+    .svelte-kit<br>
+    build <br>
+    node_modules <br>
+    .dockerignore <br>
+    .gitignore <br>
+    Dockerfile <br>
+    README.md <br>
+</div>
+<br><br><br>
 Good training on basics:<br>
 https://www.youtube.com/watch?v=ftiTVitDbx0&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=4
 <br><br>
