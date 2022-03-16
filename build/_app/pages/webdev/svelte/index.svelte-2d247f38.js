@@ -1,11 +1,11 @@
-import{S as Je,i as Ye,s as de,e as b,k as v,t as r,c as f,m as R,a as B,h as s,d as e,b as D,g as i,F as p,G as Te}from"../../../chunks/vendor-86ba30b8.js";function ze(Fe){let C,I,j,S,Wl,x,P,V,M,K,H,T,_,Xl,U,G,N,k,Ql,q,A,F,J,Y,d,w,Zl,z,E,$l,L,y,cl,W,X,Q,Z,$,c,a,h,g,ll,el,tl,il,bl,fl,rl,O,al,sl,pl,ol,ul,ml,nl,vl,Rl,Bl,kl,wl,El,yl,Cl,Sl,_l,Ol,Dl,Il,jl,o,hl,gl,le,ee,te,ie,be,fe,re,se,pe,oe,ue,me,ne,ve,Re,Be,xl,Pl,Vl,Ml,Kl,u,ke,we,Ee,ye,Ce,Se,_e,Oe,De,Ie,je,xe,Pe,Ve,Me,Ke,Hl,Tl,Ul,Gl,Nl,ql,Al,Fl,Jl,Yl,dl,zl,Ll;return{c(){C=b("br"),I=b("br"),j=v(),S=b("h2"),Wl=r("Svelte + Svelte Kit notes"),x=r(`
+import{S as de,i as Je,s as Ye,e as b,k as v,t as r,c as f,m as R,a as B,h as s,d as e,b as D,g as i,F as p,G as Te}from"../../../chunks/vendor-3c7d81a0.js";function ze(Fe){let C,I,j,S,Wl,x,P,V,M,K,H,T,_,Xl,U,G,N,k,Ql,q,A,F,d,J,Y,w,Zl,z,E,$l,L,y,cl,W,X,Q,Z,$,c,a,h,g,ll,el,tl,il,bl,fl,rl,O,al,sl,pl,ol,ul,ml,nl,vl,Rl,Bl,kl,wl,El,yl,Cl,Sl,_l,Ol,Dl,Il,jl,o,hl,gl,le,ee,te,ie,be,fe,re,se,pe,oe,ue,me,ne,ve,Re,Be,xl,Pl,Vl,Ml,Kl,u,ke,we,Ee,ye,Ce,Se,_e,Oe,De,Ie,je,xe,Pe,Ve,Me,Ke,Hl,Tl,Ul,Gl,Nl,ql,Al,Fl,dl,Jl,Yl,zl,Ll;return{c(){C=b("br"),I=b("br"),j=v(),S=b("h2"),Wl=r("Svelte + Svelte Kit notes"),x=r(`
 
 I picked Svelte Kit in Jan 2022. Great framework to build node apps. I liked it so much that I moved this site from plain html+css site to Sveltei Kit. The framework is SEO friendly, pre-renders pages and allows rapid development of components and static pages. `),P=b("br"),V=v(),M=b("br"),K=v(),H=b("br"),T=v(),_=b("h3"),Xl=r("Here are a few basic instructions to get started on Svelte Kit"),U=r(`
 
 
 
-How to start a Svelte project`),G=b("br"),N=v(),k=b("div"),Ql=r("npm init svelte@next "),q=b("name"),A=v(),F=b("br"),J=r(`
-How to build and deploy`),Y=b("br"),d=v(),w=b("div"),Zl=r("npm install"),z=v(),E=b("div"),$l=r("npm run build"),L=v(),y=b("div"),cl=r("npm run dev&"),W=r(` (to run npm in backgroud)
+How to start a Svelte project`),G=b("br"),N=v(),k=b("div"),Ql=r("npm init svelte@next "),q=b("name"),A=v(),F=b("br"),d=r(`
+How to build and deploy`),J=b("br"),Y=v(),w=b("div"),Zl=r("npm install"),z=v(),E=b("div"),$l=r("npm run build"),L=v(),y=b("div"),cl=r("npm run dev&"),W=r(` (to run npm in backgroud)
 `),X=b("br"),Q=b("br"),Z=r(`
 
 In case you run without \u2018&\u2019 (in foreground), use right Ctrl and \u2018c\u2019 to terminate server and return to terminal prompt
@@ -47,19 +47,19 @@ Steps:`),vl=b("br"),Rl=r(`
     README.md `),Ke=b("br"),Hl=v(),Tl=b("br"),Ul=b("br"),Gl=b("br"),Nl=r(`
 Good training on basics:`),ql=b("br"),Al=r(`
 https://www.youtube.com/watch?v=ftiTVitDbx0&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=4
-`),Fl=b("br"),Jl=b("br"),Yl=r(`
+`),Fl=b("br"),dl=b("br"),Jl=r(`
 
 Other references:
 https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog
 09 Feb 2022
-`),dl=b("br"),zl=b("br"),Ll=b("br"),this.h()},l(l){C=f(l,"BR",{}),I=f(l,"BR",{}),j=R(l),S=f(l,"H2",{});var t=B(S);Wl=s(t,"Svelte + Svelte Kit notes"),t.forEach(e),x=s(l,`
+`),Yl=b("br"),zl=b("br"),Ll=b("br"),this.h()},l(l){C=f(l,"BR",{}),I=f(l,"BR",{}),j=R(l),S=f(l,"H2",{});var t=B(S);Wl=s(t,"Svelte + Svelte Kit notes"),t.forEach(e),x=s(l,`
 
 I picked Svelte Kit in Jan 2022. Great framework to build node apps. I liked it so much that I moved this site from plain html+css site to Sveltei Kit. The framework is SEO friendly, pre-renders pages and allows rapid development of components and static pages. `),P=f(l,"BR",{}),V=R(l),M=f(l,"BR",{}),K=R(l),H=f(l,"BR",{}),T=R(l),_=f(l,"H3",{});var Ue=B(_);Xl=s(Ue,"Here are a few basic instructions to get started on Svelte Kit"),Ue.forEach(e),U=s(l,`
 
 
 
-How to start a Svelte project`),G=f(l,"BR",{}),N=R(l),k=f(l,"DIV",{class:!0});var He=B(k);Ql=s(He,"npm init svelte@next "),q=f(He,"NAME",{}),B(q).forEach(e),He.forEach(e),A=R(l),F=f(l,"BR",{}),J=s(l,`
-How to build and deploy`),Y=f(l,"BR",{}),d=R(l),w=f(l,"DIV",{class:!0});var Ge=B(w);Zl=s(Ge,"npm install"),Ge.forEach(e),z=R(l),E=f(l,"DIV",{class:!0});var Ne=B(E);$l=s(Ne,"npm run build"),Ne.forEach(e),L=R(l),y=f(l,"DIV",{class:!0});var qe=B(y);cl=s(qe,"npm run dev&"),qe.forEach(e),W=s(l,` (to run npm in backgroud)
+How to start a Svelte project`),G=f(l,"BR",{}),N=R(l),k=f(l,"DIV",{class:!0});var He=B(k);Ql=s(He,"npm init svelte@next "),q=f(He,"NAME",{}),B(q).forEach(e),He.forEach(e),A=R(l),F=f(l,"BR",{}),d=s(l,`
+How to build and deploy`),J=f(l,"BR",{}),Y=R(l),w=f(l,"DIV",{class:!0});var Ge=B(w);Zl=s(Ge,"npm install"),Ge.forEach(e),z=R(l),E=f(l,"DIV",{class:!0});var Ne=B(E);$l=s(Ne,"npm run build"),Ne.forEach(e),L=R(l),y=f(l,"DIV",{class:!0});var qe=B(y);cl=s(qe,"npm run dev&"),qe.forEach(e),W=s(l,` (to run npm in backgroud)
 `),X=f(l,"BR",{}),Q=f(l,"BR",{}),Z=s(l,`
 
 In case you run without \u2018&\u2019 (in foreground), use right Ctrl and \u2018c\u2019 to terminate server and return to terminal prompt
@@ -101,9 +101,9 @@ Steps:`),vl=f(l,"BR",{}),Rl=s(l,`
     README.md `),Ke=f(n,"BR",{}),n.forEach(e),Hl=R(l),Tl=f(l,"BR",{}),Ul=f(l,"BR",{}),Gl=f(l,"BR",{}),Nl=s(l,`
 Good training on basics:`),ql=f(l,"BR",{}),Al=s(l,`
 https://www.youtube.com/watch?v=ftiTVitDbx0&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=4
-`),Fl=f(l,"BR",{}),Jl=f(l,"BR",{}),Yl=s(l,`
+`),Fl=f(l,"BR",{}),dl=f(l,"BR",{}),Jl=s(l,`
 
 Other references:
 https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog
 09 Feb 2022
-`),dl=f(l,"BR",{}),zl=f(l,"BR",{}),Ll=f(l,"BR",{}),this.h()},h(){D(k,"class","code"),D(w,"class","code"),D(E,"class","code"),D(y,"class","code"),D(o,"class","code"),D(u,"class","code")},m(l,t){i(l,C,t),i(l,I,t),i(l,j,t),i(l,S,t),p(S,Wl),i(l,x,t),i(l,P,t),i(l,V,t),i(l,M,t),i(l,K,t),i(l,H,t),i(l,T,t),i(l,_,t),p(_,Xl),i(l,U,t),i(l,G,t),i(l,N,t),i(l,k,t),p(k,Ql),p(k,q),i(l,A,t),i(l,F,t),i(l,J,t),i(l,Y,t),i(l,d,t),i(l,w,t),p(w,Zl),i(l,z,t),i(l,E,t),p(E,$l),i(l,L,t),i(l,y,t),p(y,cl),i(l,W,t),i(l,X,t),i(l,Q,t),i(l,Z,t),i(l,$,t),i(l,c,t),i(l,a,t),i(l,h,t),i(l,g,t),i(l,ll,t),i(l,el,t),i(l,tl,t),i(l,il,t),i(l,bl,t),i(l,fl,t),i(l,rl,t),i(l,O,t),p(O,al),i(l,sl,t),i(l,pl,t),i(l,ol,t),i(l,ul,t),i(l,ml,t),i(l,nl,t),i(l,vl,t),i(l,Rl,t),i(l,Bl,t),i(l,kl,t),i(l,wl,t),i(l,El,t),i(l,yl,t),i(l,Cl,t),i(l,Sl,t),i(l,_l,t),i(l,Ol,t),i(l,Dl,t),i(l,Il,t),i(l,jl,t),i(l,o,t),p(o,hl),p(o,gl),p(o,le),p(o,ee),p(o,te),p(o,ie),p(o,be),p(o,fe),p(o,re),p(o,se),p(o,pe),p(o,oe),p(o,ue),p(o,me),p(o,ne),p(o,ve),p(o,Re),p(o,Be),i(l,xl,t),i(l,Pl,t),i(l,Vl,t),i(l,Ml,t),i(l,Kl,t),i(l,u,t),p(u,ke),p(u,we),p(u,Ee),p(u,ye),p(u,Ce),p(u,Se),p(u,_e),p(u,Oe),p(u,De),p(u,Ie),p(u,je),p(u,xe),p(u,Pe),p(u,Ve),p(u,Me),p(u,Ke),i(l,Hl,t),i(l,Tl,t),i(l,Ul,t),i(l,Gl,t),i(l,Nl,t),i(l,ql,t),i(l,Al,t),i(l,Fl,t),i(l,Jl,t),i(l,Yl,t),i(l,dl,t),i(l,zl,t),i(l,Ll,t)},p:Te,i:Te,o:Te,d(l){l&&e(C),l&&e(I),l&&e(j),l&&e(S),l&&e(x),l&&e(P),l&&e(V),l&&e(M),l&&e(K),l&&e(H),l&&e(T),l&&e(_),l&&e(U),l&&e(G),l&&e(N),l&&e(k),l&&e(A),l&&e(F),l&&e(J),l&&e(Y),l&&e(d),l&&e(w),l&&e(z),l&&e(E),l&&e(L),l&&e(y),l&&e(W),l&&e(X),l&&e(Q),l&&e(Z),l&&e($),l&&e(c),l&&e(a),l&&e(h),l&&e(g),l&&e(ll),l&&e(el),l&&e(tl),l&&e(il),l&&e(bl),l&&e(fl),l&&e(rl),l&&e(O),l&&e(sl),l&&e(pl),l&&e(ol),l&&e(ul),l&&e(ml),l&&e(nl),l&&e(vl),l&&e(Rl),l&&e(Bl),l&&e(kl),l&&e(wl),l&&e(El),l&&e(yl),l&&e(Cl),l&&e(Sl),l&&e(_l),l&&e(Ol),l&&e(Dl),l&&e(Il),l&&e(jl),l&&e(o),l&&e(xl),l&&e(Pl),l&&e(Vl),l&&e(Ml),l&&e(Kl),l&&e(u),l&&e(Hl),l&&e(Tl),l&&e(Ul),l&&e(Gl),l&&e(Nl),l&&e(ql),l&&e(Al),l&&e(Fl),l&&e(Jl),l&&e(Yl),l&&e(dl),l&&e(zl),l&&e(Ll)}}}class We extends Je{constructor(C){super();Ye(this,C,null,ze,de,{})}}export{We as default};
+`),Yl=f(l,"BR",{}),zl=f(l,"BR",{}),Ll=f(l,"BR",{}),this.h()},h(){D(k,"class","code"),D(w,"class","code"),D(E,"class","code"),D(y,"class","code"),D(o,"class","code"),D(u,"class","code")},m(l,t){i(l,C,t),i(l,I,t),i(l,j,t),i(l,S,t),p(S,Wl),i(l,x,t),i(l,P,t),i(l,V,t),i(l,M,t),i(l,K,t),i(l,H,t),i(l,T,t),i(l,_,t),p(_,Xl),i(l,U,t),i(l,G,t),i(l,N,t),i(l,k,t),p(k,Ql),p(k,q),i(l,A,t),i(l,F,t),i(l,d,t),i(l,J,t),i(l,Y,t),i(l,w,t),p(w,Zl),i(l,z,t),i(l,E,t),p(E,$l),i(l,L,t),i(l,y,t),p(y,cl),i(l,W,t),i(l,X,t),i(l,Q,t),i(l,Z,t),i(l,$,t),i(l,c,t),i(l,a,t),i(l,h,t),i(l,g,t),i(l,ll,t),i(l,el,t),i(l,tl,t),i(l,il,t),i(l,bl,t),i(l,fl,t),i(l,rl,t),i(l,O,t),p(O,al),i(l,sl,t),i(l,pl,t),i(l,ol,t),i(l,ul,t),i(l,ml,t),i(l,nl,t),i(l,vl,t),i(l,Rl,t),i(l,Bl,t),i(l,kl,t),i(l,wl,t),i(l,El,t),i(l,yl,t),i(l,Cl,t),i(l,Sl,t),i(l,_l,t),i(l,Ol,t),i(l,Dl,t),i(l,Il,t),i(l,jl,t),i(l,o,t),p(o,hl),p(o,gl),p(o,le),p(o,ee),p(o,te),p(o,ie),p(o,be),p(o,fe),p(o,re),p(o,se),p(o,pe),p(o,oe),p(o,ue),p(o,me),p(o,ne),p(o,ve),p(o,Re),p(o,Be),i(l,xl,t),i(l,Pl,t),i(l,Vl,t),i(l,Ml,t),i(l,Kl,t),i(l,u,t),p(u,ke),p(u,we),p(u,Ee),p(u,ye),p(u,Ce),p(u,Se),p(u,_e),p(u,Oe),p(u,De),p(u,Ie),p(u,je),p(u,xe),p(u,Pe),p(u,Ve),p(u,Me),p(u,Ke),i(l,Hl,t),i(l,Tl,t),i(l,Ul,t),i(l,Gl,t),i(l,Nl,t),i(l,ql,t),i(l,Al,t),i(l,Fl,t),i(l,dl,t),i(l,Jl,t),i(l,Yl,t),i(l,zl,t),i(l,Ll,t)},p:Te,i:Te,o:Te,d(l){l&&e(C),l&&e(I),l&&e(j),l&&e(S),l&&e(x),l&&e(P),l&&e(V),l&&e(M),l&&e(K),l&&e(H),l&&e(T),l&&e(_),l&&e(U),l&&e(G),l&&e(N),l&&e(k),l&&e(A),l&&e(F),l&&e(d),l&&e(J),l&&e(Y),l&&e(w),l&&e(z),l&&e(E),l&&e(L),l&&e(y),l&&e(W),l&&e(X),l&&e(Q),l&&e(Z),l&&e($),l&&e(c),l&&e(a),l&&e(h),l&&e(g),l&&e(ll),l&&e(el),l&&e(tl),l&&e(il),l&&e(bl),l&&e(fl),l&&e(rl),l&&e(O),l&&e(sl),l&&e(pl),l&&e(ol),l&&e(ul),l&&e(ml),l&&e(nl),l&&e(vl),l&&e(Rl),l&&e(Bl),l&&e(kl),l&&e(wl),l&&e(El),l&&e(yl),l&&e(Cl),l&&e(Sl),l&&e(_l),l&&e(Ol),l&&e(Dl),l&&e(Il),l&&e(jl),l&&e(o),l&&e(xl),l&&e(Pl),l&&e(Vl),l&&e(Ml),l&&e(Kl),l&&e(u),l&&e(Hl),l&&e(Tl),l&&e(Ul),l&&e(Gl),l&&e(Nl),l&&e(ql),l&&e(Al),l&&e(Fl),l&&e(dl),l&&e(Jl),l&&e(Yl),l&&e(zl),l&&e(Ll)}}}class We extends de{constructor(C){super();Je(this,C,null,ze,Ye,{})}}export{We as default};

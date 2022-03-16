@@ -10,6 +10,7 @@
 <br><br><ul>
     
               <li> <h3>Cloud</h3> </li>
+              <li> Linode - Great place to playaround. Uncomplicated. Inexpensive. </li>
               <li> <a href="/infrastructure/cloud/cleo"> Cleo </a> &nbsp; cross platform integration. </li>
 <br>
               <li> <h3> Containerization </h3> </li>
