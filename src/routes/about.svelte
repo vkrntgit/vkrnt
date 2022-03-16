@@ -1,16 +1,17 @@
 <script>
 </script>
-<br>
-<br>
 <div class="article">
+<br>
+<br>
 I ♥ tech.<br> 
 <br>
 This website is a small side project to research and share the latest in technology, leadership in IT and the application of technology to real world business problems.<br>
 <br>
-<br>
+I share my thoughts in the Blog section. The Slipbox is a collection of notes on technologies that I have worked on or am exploring. <br><br>
+
+This site was developed with sveltekit and is hosted on a GCP VM. <br><br>
 Vikrant Payal<br>
 <br>
-<img src=""/>
 </div>
 <style>
     .article{
