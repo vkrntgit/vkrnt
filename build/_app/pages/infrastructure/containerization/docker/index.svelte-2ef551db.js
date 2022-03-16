@@ -1,4 +1,4 @@
-import{S as fl,i as il,s as kl,e as i,t as m,k as c,c as k,a as ll,h as b,d as e,m as n,g as f,F as rl,G as h}from"../../../../chunks/vendor-3c7d81a0.js";function ml(el){let p,d,D,s,B,R,u,o,a,w,_,v,x,C,j,y,E,H,S,q,t,F,G,z,A,I,J,K,L,M,N,O,P,Q,T,U,V,W,X,Y,Z,$;return{c(){p=i("h2"),d=m("Docker"),D=c(),s=i("br"),B=c(),R=i("br"),u=c(),o=i("h3"),a=m("Common docker commands"),w=m(` 
+import{S as fl,i as il,s as kl,e as i,t as m,k as c,c as k,a as ll,h as b,d as e,m as n,g as f,F as rl,G as h}from"../../../../chunks/vendor-86ba30b8.js";function ml(el){let p,d,D,s,B,R,u,o,a,w,_,v,x,C,j,y,E,H,S,q,t,F,G,z,A,I,J,K,L,M,N,O,P,Q,T,U,V,W,X,Y,Z,$;return{c(){p=i("h2"),d=m("Docker"),D=c(),s=i("br"),B=c(),R=i("br"),u=c(),o=i("h3"),a=m("Common docker commands"),w=m(` 
 docker container start `),_=i("br"),v=m(`
 Docker container stop `),x=i("br"),C=m(`
 Docker container run `),j=i("br"),y=m(`

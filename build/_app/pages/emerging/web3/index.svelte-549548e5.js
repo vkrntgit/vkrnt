@@ -1,4 +1,4 @@
-import{S as q,i as J,s as K,e as o,t as r,k as U,c as s,a as L,h as a,d as n,m as V,g as i,F as O,G as Y}from"../../../chunks/vendor-3c7d81a0.js";function Q(X){let l,H,p,h,u,b,d,f,m,c,w,y,v,k,W,g,R,T,B,F,C,I,P,S,N,x,G,E,_,j,z,A,D,M;return{c(){l=o("h2"),H=r("Web3"),p=r(`
+import{S as q,i as J,s as K,e as o,t as r,k as U,c as s,a as L,h as a,d as n,m as V,g as i,F as O,G as Y}from"../../../chunks/vendor-86ba30b8.js";function Q(X){let l,H,p,h,u,b,d,f,m,c,w,y,v,k,W,g,R,T,B,F,C,I,P,S,N,x,G,E,_,j,z,A,D,M;return{c(){l=o("h2"),H=r("Web3"),p=r(`
 What is Web3?`),h=o("br"),u=r(`
 Web3 is a web app architecture that runs apps on blockchains or decentralized networks (cryptoeconomic protocol).
 This is a whole new way of deploying and accessing apps - very different from the server-to-browser protocol of serving apps (web2).
