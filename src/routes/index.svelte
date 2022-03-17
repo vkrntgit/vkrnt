@@ -5,6 +5,13 @@
 <main>
 <br><br>
 <h2>Blog posts</h2>
+<ul>
+    <li> 
+        <a href="/blog/learning-is-a-fractal-curve">Learning is a fractal curve</a>
+        <div class="code">#culture</div>
+    </li>
+
+</ul>
 <br><br>
 <h2>Technology Slipbox</h2> Notes on development, CICD and infrastructure technologies and tools.
 <br><br><ul>
