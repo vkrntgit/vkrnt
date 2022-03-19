@@ -4,20 +4,21 @@ body{
     width: 80%;
     margin: auto;
     background-color: white;
-    font-family: Garamond;
+    font-family: Arial;
     font-weight: lighter;
     line-height: 1.6;
     letter-spacing: 110%;
 }
 
-	.dark-mode {
-		background-color: #202020;
-		color: white;
-	}
-	.light-mode {
-		background-color: white;
-		color: black;
-	}
+.dark-mode {
+    background-color: #202020;
+    color: #e6e6e6;
+}
+	
+.light-mode {
+    background-color: white;
+    color: black;
+}
 
 
 main{
@@ -25,9 +26,9 @@ main{
 }
 
 
-a{
+a:link, a:active, a:visited{
     text-decoration:none;
-    color: blue;
+    color: salmon; /* #1034A6; */
 }
 
 h1{
@@ -44,6 +45,10 @@ h3{
     color: #424242;
 }
 
+
+red{
+    color: #841B2D;
+}
 
 footer{
     font-size: small;

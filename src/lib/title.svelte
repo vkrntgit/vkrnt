@@ -37,8 +37,8 @@
 
 <style>
     a{ /* This is specific to title, hence not added to global.css */
-       color: #bdbdbd;
-       text-decoration: none;
+       color: light-blue;
+       text-decoration: #bdbdbd;
     }
 
     tr,td{
@@ -50,6 +50,7 @@
    #light_mode_button{
       display: none;
       cursor: pointer;
+      text-shadow: 1px 1px 4px #808080;
    }
 
   #light_mode_button:hover{
@@ -58,6 +59,7 @@
 
   #dark_mode_button{
      cursor: pointer;
+     text-shadow: 1px 1px 4px grey;
   }
 
   #dark_mode_button:hover {

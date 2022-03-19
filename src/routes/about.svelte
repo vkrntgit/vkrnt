@@ -3,7 +3,7 @@
 <div class="article">
 <br>
 <br>
-I ♥ tech.<br> 
+I <red>♥</red> tech.<br> 
 <br>
 This website is a small side project to research and share the latest in technology, leadership in IT and the application of technology to real world business problems.<br>
 <br>
