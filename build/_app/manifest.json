@@ -1,10 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-344494cb.js",
+    "file": "start-e6797cda.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_vendor-3c7d81a0.js"
+      "_vendor-62c3b85b.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
@@ -26,156 +26,156 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-6ec27c7d.js",
+    "file": "pages/__layout.svelte-bcd531a8.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3c7d81a0.js"
+      "_vendor-62c3b85b.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-1f85f7e0.css"
+      "assets/pages/__layout.svelte-4a29ec82.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-9d41cc85.js",
+    "file": "error.svelte-93ee9212.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3c7d81a0.js"
+      "_vendor-62c3b85b.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-5d50082f.js",
+    "file": "pages/index.svelte-616d1b08.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3c7d81a0.js"
+      "_vendor-62c3b85b.js"
     ]
   },
   "src/routes/performance_engineering/service_virtualization/index.svelte": {
-    "file": "pages/performance_engineering/service_virtualization/index.svelte-e9f10860.js",
+    "file": "pages/performance_engineering/service_virtualization/index.svelte-7a20cf28.js",
     "src": "src/routes/performance_engineering/service_virtualization/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3c7d81a0.js"
+      "_vendor-62c3b85b.js"
     ]
   },
   "src/routes/infrastructure/containerization/containerd/index.svelte": {
-    "file": "pages/infrastructure/containerization/containerd/index.svelte-a3b60624.js",
+    "file": "pages/infrastructure/containerization/containerd/index.svelte-c4de9e27.js",
     "src": "src/routes/infrastructure/containerization/containerd/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3c7d81a0.js"
+      "_vendor-62c3b85b.js"
     ]
   },
   "src/routes/infrastructure/containerization/docker/index.svelte": {
-    "file": "pages/infrastructure/containerization/docker/index.svelte-a8c8843d.js",
+    "file": "pages/infrastructure/containerization/docker/index.svelte-419c96f1.js",
     "src": "src/routes/infrastructure/containerization/docker/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3c7d81a0.js"
+      "_vendor-62c3b85b.js"
     ]
   },
   "src/routes/infrastructure/containerization/cri.o/index.svelte": {
-    "file": "pages/infrastructure/containerization/cri.o/index.svelte-3e792157.js",
+    "file": "pages/infrastructure/containerization/cri.o/index.svelte-7f96c5bb.js",
     "src": "src/routes/infrastructure/containerization/cri.o/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3c7d81a0.js"
+      "_vendor-62c3b85b.js"
     ]
   },
   "src/routes/infrastructure/networking/concepts/index.svelte": {
-    "file": "pages/infrastructure/networking/concepts/index.svelte-34e876ce.js",
+    "file": "pages/infrastructure/networking/concepts/index.svelte-f6cc4de7.js",
     "src": "src/routes/infrastructure/networking/concepts/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3c7d81a0.js"
+      "_vendor-62c3b85b.js"
     ]
   },
   "src/routes/infrastructure/cloud/linode/index.svelte": {
-    "file": "pages/infrastructure/cloud/linode/index.svelte-43c49ff4.js",
+    "file": "pages/infrastructure/cloud/linode/index.svelte-e293c6d6.js",
     "src": "src/routes/infrastructure/cloud/linode/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3c7d81a0.js"
+      "_vendor-62c3b85b.js"
     ]
   },
   "src/routes/infrastructure/cloud/cleo/index.svelte": {
-    "file": "pages/infrastructure/cloud/cleo/index.svelte-bb43f5ba.js",
+    "file": "pages/infrastructure/cloud/cleo/index.svelte-683fe5f5.js",
     "src": "src/routes/infrastructure/cloud/cleo/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3c7d81a0.js"
+      "_vendor-62c3b85b.js"
     ]
   },
   "src/routes/development/go/index.svelte": {
-    "file": "pages/development/go/index.svelte-7f329284.js",
+    "file": "pages/development/go/index.svelte-07f416d5.js",
     "src": "src/routes/development/go/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3c7d81a0.js"
+      "_vendor-62c3b85b.js"
     ]
   },
   "src/routes/telemetry/apache_skywalking/index.svelte": {
-    "file": "pages/telemetry/apache_skywalking/index.svelte-6149aee8.js",
+    "file": "pages/telemetry/apache_skywalking/index.svelte-f5460157.js",
     "src": "src/routes/telemetry/apache_skywalking/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3c7d81a0.js"
+      "_vendor-62c3b85b.js"
     ]
   },
   "src/routes/emerging/web3/index.svelte": {
-    "file": "pages/emerging/web3/index.svelte-70593d83.js",
+    "file": "pages/emerging/web3/index.svelte-685ac0d0.js",
     "src": "src/routes/emerging/web3/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3c7d81a0.js"
+      "_vendor-62c3b85b.js"
     ]
   },
   "src/routes/webdev/svelte/index.svelte": {
-    "file": "pages/webdev/svelte/index.svelte-2d247f38.js",
+    "file": "pages/webdev/svelte/index.svelte-54e836c8.js",
     "src": "src/routes/webdev/svelte/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3c7d81a0.js"
+      "_vendor-62c3b85b.js"
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-0fec52f5.js",
+    "file": "pages/about.svelte-8e4f2b6c.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3c7d81a0.js"
+      "_vendor-62c3b85b.js"
     ],
     "css": [
       "assets/pages/about.svelte-6a0b9d27.css"
     ]
   },
   "src/routes/blog/learning-is-a-fractal-curve.svelte": {
-    "file": "pages/blog/learning-is-a-fractal-curve.svelte-1499a4ec.js",
+    "file": "pages/blog/learning-is-a-fractal-curve.svelte-50cd52ec.js",
     "src": "src/routes/blog/learning-is-a-fractal-curve.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3c7d81a0.js"
+      "_vendor-62c3b85b.js"
     ]
   },
-  "_vendor-3c7d81a0.js": {
-    "file": "chunks/vendor-3c7d81a0.js"
+  "_vendor-62c3b85b.js": {
+    "file": "chunks/vendor-62c3b85b.js"
   }
 }

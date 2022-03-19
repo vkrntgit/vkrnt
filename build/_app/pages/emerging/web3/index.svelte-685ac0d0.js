@@ -1,4 +1,4 @@
-import{S as q,i as J,s as K,e as o,t as r,k as U,c as s,a as L,h as a,d as n,m as V,g as i,F as O,G as Y}from"../../../chunks/vendor-3c7d81a0.js";function Q(X){let l,H,p,h,u,b,d,f,m,c,w,y,v,k,W,g,R,T,B,F,C,I,P,S,N,x,G,E,_,j,z,A,D,M;return{c(){l=o("h2"),H=r("Web3"),p=r(`
+import{S as q,i as J,s as K,e as o,t as r,k as U,c as s,a as L,h as a,d as n,m as V,g as i,F as O,H as Y}from"../../../chunks/vendor-62c3b85b.js";function Q(X){let l,M,p,h,u,b,d,f,m,c,w,y,v,k,W,g,R,T,B,F,C,I,P,S,N,x,G,E,_,j,z,A,D,H;return{c(){l=o("h2"),M=r("Web3"),p=r(`
 What is Web3?`),h=o("br"),u=r(`
 Web3 is a web app architecture that runs apps on blockchains or decentralized networks (cryptoeconomic protocol).
 This is a whole new way of deploying and accessing apps - very different from the server-to-browser protocol of serving apps (web2).
@@ -51,7 +51,7 @@ https://lnkd.in/g94YH57V
 `),G=o("br"),E=r(`
 Great place to start:`),_=o("br"),j=r(`
 https://thirdweb.com/
-`),z=o("br"),A=U(),D=o("br"),M=o("br")},l(e){l=s(e,"H2",{});var t=L(l);H=a(t,"Web3"),t.forEach(n),p=a(e,`
+`),z=o("br"),A=U(),D=o("br"),H=o("br")},l(e){l=s(e,"H2",{});var t=L(l);M=a(t,"Web3"),t.forEach(n),p=a(e,`
 What is Web3?`),h=s(e,"BR",{}),u=a(e,`
 Web3 is a web app architecture that runs apps on blockchains or decentralized networks (cryptoeconomic protocol).
 This is a whole new way of deploying and accessing apps - very different from the server-to-browser protocol of serving apps (web2).
@@ -104,4 +104,4 @@ https://lnkd.in/g94YH57V
 `),G=s(e,"BR",{}),E=a(e,`
 Great place to start:`),_=s(e,"BR",{}),j=a(e,`
 https://thirdweb.com/
-`),z=s(e,"BR",{}),A=V(e),D=s(e,"BR",{}),M=s(e,"BR",{})},m(e,t){i(e,l,t),O(l,H),i(e,p,t),i(e,h,t),i(e,u,t),i(e,b,t),i(e,d,t),i(e,f,t),i(e,m,t),i(e,c,t),i(e,w,t),i(e,y,t),i(e,v,t),i(e,k,t),i(e,W,t),i(e,g,t),i(e,R,t),i(e,T,t),i(e,B,t),i(e,F,t),i(e,C,t),i(e,I,t),i(e,P,t),i(e,S,t),i(e,N,t),i(e,x,t),i(e,G,t),i(e,E,t),i(e,_,t),i(e,j,t),i(e,z,t),i(e,A,t),i(e,D,t),i(e,M,t)},p:Y,i:Y,o:Y,d(e){e&&n(l),e&&n(p),e&&n(h),e&&n(u),e&&n(b),e&&n(d),e&&n(f),e&&n(m),e&&n(c),e&&n(w),e&&n(y),e&&n(v),e&&n(k),e&&n(W),e&&n(g),e&&n(R),e&&n(T),e&&n(B),e&&n(F),e&&n(C),e&&n(I),e&&n(P),e&&n(S),e&&n(N),e&&n(x),e&&n(G),e&&n(E),e&&n(_),e&&n(j),e&&n(z),e&&n(A),e&&n(D),e&&n(M)}}}class $ extends q{constructor(l){super();J(this,l,null,Q,K,{})}}export{$ as default};
+`),z=s(e,"BR",{}),A=V(e),D=s(e,"BR",{}),H=s(e,"BR",{})},m(e,t){i(e,l,t),O(l,M),i(e,p,t),i(e,h,t),i(e,u,t),i(e,b,t),i(e,d,t),i(e,f,t),i(e,m,t),i(e,c,t),i(e,w,t),i(e,y,t),i(e,v,t),i(e,k,t),i(e,W,t),i(e,g,t),i(e,R,t),i(e,T,t),i(e,B,t),i(e,F,t),i(e,C,t),i(e,I,t),i(e,P,t),i(e,S,t),i(e,N,t),i(e,x,t),i(e,G,t),i(e,E,t),i(e,_,t),i(e,j,t),i(e,z,t),i(e,A,t),i(e,D,t),i(e,H,t)},p:Y,i:Y,o:Y,d(e){e&&n(l),e&&n(p),e&&n(h),e&&n(u),e&&n(b),e&&n(d),e&&n(f),e&&n(m),e&&n(c),e&&n(w),e&&n(y),e&&n(v),e&&n(k),e&&n(W),e&&n(g),e&&n(R),e&&n(T),e&&n(B),e&&n(F),e&&n(C),e&&n(I),e&&n(P),e&&n(S),e&&n(N),e&&n(x),e&&n(G),e&&n(E),e&&n(_),e&&n(j),e&&n(z),e&&n(A),e&&n(D),e&&n(H)}}}class $ extends q{constructor(l){super();J(this,l,null,Q,K,{})}}export{$ as default};
