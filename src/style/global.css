@@ -1,8 +1,13 @@
+
+
 body{
     width: 80%;
     margin: auto;
     background-color: white;
-   font-family: Inter, Georgia, Arial; 
+    font-family: Garamond;
+    font-weight: lighter;
+    line-height: 1.6;
+    letter-spacing: 110%;
 }
 
 
@@ -72,3 +77,16 @@ footer{
    padding-bottom: 5px;
 }
 
+.slipbox{
+	width:80%;
+	margin: auto;
+	border: 1px;
+}
+
+.drawer{
+}
+
+.drawer_label{
+       margin: auto;
+       padding: 5em;
+}
