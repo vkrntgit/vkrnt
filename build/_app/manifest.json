@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-9700e907.js",
+    "file": "start-344494cb.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -10,16 +10,19 @@
       "src/routes/__layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/index.svelte",
+      "src/routes/performance_engineering/service_virtualization/index.svelte",
       "src/routes/infrastructure/containerization/containerd/index.svelte",
       "src/routes/infrastructure/containerization/docker/index.svelte",
       "src/routes/infrastructure/containerization/cri.o/index.svelte",
       "src/routes/infrastructure/networking/concepts/index.svelte",
+      "src/routes/infrastructure/cloud/linode/index.svelte",
       "src/routes/infrastructure/cloud/cleo/index.svelte",
       "src/routes/development/go/index.svelte",
       "src/routes/telemetry/apache_skywalking/index.svelte",
       "src/routes/emerging/web3/index.svelte",
       "src/routes/webdev/svelte/index.svelte",
-      "src/routes/about.svelte"
+      "src/routes/about.svelte",
+      "src/routes/blog/learning-is-a-fractal-curve.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
@@ -31,7 +34,7 @@
       "_vendor-3c7d81a0.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-47195275.css"
+      "assets/pages/__layout.svelte-1f85f7e0.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -44,8 +47,17 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-d6b73c70.js",
+    "file": "pages/index.svelte-5d50082f.js",
     "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-3c7d81a0.js"
+    ]
+  },
+  "src/routes/performance_engineering/service_virtualization/index.svelte": {
+    "file": "pages/performance_engineering/service_virtualization/index.svelte-e9f10860.js",
+    "src": "src/routes/performance_engineering/service_virtualization/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -82,6 +94,15 @@
   "src/routes/infrastructure/networking/concepts/index.svelte": {
     "file": "pages/infrastructure/networking/concepts/index.svelte-34e876ce.js",
     "src": "src/routes/infrastructure/networking/concepts/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-3c7d81a0.js"
+    ]
+  },
+  "src/routes/infrastructure/cloud/linode/index.svelte": {
+    "file": "pages/infrastructure/cloud/linode/index.svelte-43c49ff4.js",
+    "src": "src/routes/infrastructure/cloud/linode/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -143,6 +164,15 @@
     ],
     "css": [
       "assets/pages/about.svelte-6a0b9d27.css"
+    ]
+  },
+  "src/routes/blog/learning-is-a-fractal-curve.svelte": {
+    "file": "pages/blog/learning-is-a-fractal-curve.svelte-1499a4ec.js",
+    "src": "src/routes/blog/learning-is-a-fractal-curve.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-3c7d81a0.js"
     ]
   },
   "_vendor-3c7d81a0.js": {

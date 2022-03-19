@@ -6,11 +6,11 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content="">
-	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-47195275.css">
-	<link rel="modulepreload" href="/_app/start-9700e907.js">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-1f85f7e0.css">
+	<link rel="modulepreload" href="/_app/start-344494cb.js">
 	<link rel="modulepreload" href="/_app/chunks/vendor-3c7d81a0.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-6ec27c7d.js">
-	<link rel="modulepreload" href="/_app/pages/index.svelte-d6b73c70.js">
+	<link rel="modulepreload" href="/_app/pages/index.svelte-5d50082f.js">
 	</head>
 	<body>
 		<div>
@@ -21,35 +21,52 @@
               <td class="header_table_td svelte-12w7r4q"><a href="/about" class="svelte-12w7r4q">About   </a></td></tr></table></span></div></header>
 
 <main><main><br><br>
-<h2>Blog posts</h2>
+<h2>📰   Blog</h2>  
+ <a href="/blog/learning-is-a-fractal-curve">Learning is a fractal curve</a>
+<br><br><br><br>
+<h2>🗄  Technology Slipbox</h2> My notes on development, CICD and infrastructure technologies and tools.
 <br><br>
-<h2>Technology Slipbox</h2> Notes on development, CICD and infrastructure technologies and tools.
-<br><br><ul><li><h3>Cloud</h3></li>
-              <li>Linode - Great place to playaround. Uncomplicated. Inexpensive. </li>
-              <li><a href="/infrastructure/cloud/cleo">Cleo </a>   cross platform integration. </li>
-<br>
-              <li><h3>Containerization </h3></li>
-              <li><a href="/infrastructure/containerization/docker">Docker</a></li>
-              <li><a href="/infrastructure/containerization/containerd">Containerd</a></li>
-              <li><a href="/infrastructure/containerization/cri.o">CRI.O</a></li>
-<br>
-              <li><h3>Telemetry </h3></li>
-              <li><a href="/telemetry/apache_skywalking">Apache Skywalking </a></li>
-<br>
-              <li><h3>Networking </h3></li>
-              <li><a href="/infrastructure/networking/concepts/">Networking concepts</a></li>
-<br>
-              <li><h3>Development languages </h3></li>
-              <li><a href="/development/go">Go lang </a></li>
-<br>
-              <li><h3>Webdev</h3></li> 
-              <li><a href="/webdev/svelte">Svelte + Sveltkit</a>   A great framework for rapid web app development!</li>
-<br>
-              <li><h3>Emerging Tech</h3></li>
-              <li><a href="/emerging/web3">Web3 </a>    Decentralized, blockchain based web development. Scary yet interesting. 
+
+<table class="slipbox"><tr class="drawer"><td class="drawer_label">CLOUD
+         </td>   
+         <td><a href="/infrastructure/cloud/linode">Linode</a> - Great as a sandbox to learn cloud basics, GCP,        
+                       <a href="/infrastructure/cloud/cleo">Cleo </a>   cross platform integration. 
+         </td></tr>
+
+    <tr class="drawer"><td class="drawer_label">KUBERNETES
+         </td>
+         <td></td></tr>
+     <tr><td class="drawer_label">CONTAINERISATION
+         </td>
+          <td><a href="/infrastructure/containerization/docker">Docker</a>,  
+               <a href="/infrastructure/containerization/containerd">Containerd</a>,  
+               <a href="/infrastructure/containerization/cri.o">CRI.O</a></td></tr>
+
+
+     <tr><td class="drawer_label">TELEMETRY
+         </td>
+         <td><a href="/telemetry/apache_skywalking">Apache Skywalking </a></td></tr>
+
+     <tr><td class="drawer_label">NETWORKING
+         </td> 
+         <td><li><a href="/infrastructure/networking/concepts/">Networking concepts</a></li></td></tr>
+
+    <tr><td class="drawer_label">DEVELOPMENT
+        </td> 
+        <td><a href="/development/go">Go lang </a>,  
+               <a href="/webdev/svelte">Svelte + Sveltkit</a>   A great framework for rapid web app development!
+        </td><td></td></tr>
+
+    <tr><td class="drawer_label">EMERGING TECH
+        </td>
+        <td><a href="/emerging/web3">Web3</a> Decentralized block chain based development. Scary yet interesting.
+        </td><td></td></tr></table>
+
+<br><br><br>
+
+
        
 
-        </li></ul>
 <br><br>
 
 </main></main>
@@ -58,10 +75,10 @@
 </footer>
 
 
-		<script type="module" data-hydrate="1k4qplr">
-		import { start } from "/_app/start-9700e907.js";
+		<script type="module" data-hydrate="pqvbci">
+		import { start } from "/_app/start-344494cb.js";
 		start({
-			target: document.querySelector('[data-hydrate="1k4qplr"]').parentNode,
+			target: document.querySelector('[data-hydrate="pqvbci"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -72,7 +89,7 @@
 				error: null,
 				nodes: [
 					import("/_app/pages/__layout.svelte-6ec27c7d.js"),
-						import("/_app/pages/index.svelte-d6b73c70.js")
+						import("/_app/pages/index.svelte-5d50082f.js")
 				],
 				url: new URL("http://sveltekit-prerender/"),
 				params: {}
