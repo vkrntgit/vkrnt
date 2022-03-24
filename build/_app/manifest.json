@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-e6797cda.js",
+    "file": "start-76092939.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -26,7 +26,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-bcd531a8.js",
+    "file": "pages/__layout.svelte-1fde0dcb.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -34,7 +34,11 @@
       "_vendor-62c3b85b.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-4a29ec82.css"
+      "assets/pages/__layout.svelte-1857c006.css"
+    ],
+    "assets": [
+      "assets/roboto.light-ee435204.ttf",
+      "assets/roboto.black-italic-60f24a2d.ttf"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -155,7 +159,7 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-8e4f2b6c.js",
+    "file": "pages/about.svelte-a9f26fd7.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -167,7 +171,7 @@
     ]
   },
   "src/routes/blog/learning-is-a-fractal-curve.svelte": {
-    "file": "pages/blog/learning-is-a-fractal-curve.svelte-50cd52ec.js",
+    "file": "pages/blog/learning-is-a-fractal-curve.svelte-fb428638.js",
     "src": "src/routes/blog/learning-is-a-fractal-curve.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
