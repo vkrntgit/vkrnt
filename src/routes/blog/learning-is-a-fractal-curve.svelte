@@ -9,7 +9,9 @@ Everyone in tech start at almost the same line. Some race ahead. Yet some turn i
 <br><br>
 Learning this way takes longer though. Learning a completely new platform/tool/tech can be daunting. Coffee can only carry you for a couple of hours. An easy way to learn consistently and grow in a new area is to break down the subject matter into bite size lessons. There is a significant qualititative difference in understanding and ability to apply knowledge when you focus all your attention on a ten minute information nugget - as against racing through a hundred pages or watching a web course at 2x speed. The best measure of success is how easily you move from learning to application. 
 <br><br>
-The jump from learning to application is tougher when you absorb a ten hour course or complete a three hundred page book over a weekend. 
+The jump from learning to applying knowledge is tougher when you absorb a ten hour course or complete a three hundred page book over a weekend. Instead if you pace the learning, try your hand at what you picked and keep firming the body of knowledge on a topic, it becomes so much more easier to start using the new tech. <br><br>
+
+ 
 </div>
 <style>
 </style>

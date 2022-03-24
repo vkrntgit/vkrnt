@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-76092939.js",
+    "file": "start-2ccfe1d9.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -171,7 +171,7 @@
     ]
   },
   "src/routes/blog/learning-is-a-fractal-curve.svelte": {
-    "file": "pages/blog/learning-is-a-fractal-curve.svelte-fb428638.js",
+    "file": "pages/blog/learning-is-a-fractal-curve.svelte-1b8afae9.js",
     "src": "src/routes/blog/learning-is-a-fractal-curve.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
