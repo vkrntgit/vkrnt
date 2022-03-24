@@ -1,11 +1,13 @@
-
+@font-face {
+   font-family: myFirstFont;
+   src: url(roboto.light.ttf);
+}
 
 body{
     width: 80%;
     margin: auto;
     background-color: white;
-    font-family: Arial;
-    font-weight: lighter;
+    font-family: myFirstFont, Courier;
     line-height: 1.6;
     letter-spacing: 110%;
 }
@@ -31,8 +33,14 @@ a:link, a:active, a:visited{
     color: salmon; /* #1034A6; */
 }
 
+@font-face{
+    font-family: myHeaderFont;
+    src: url(roboto.black-italic.ttf);
+}
+
 h1{
     color: #757575;
+    font-family: myHeaderFont;
 }
 
 
