@@ -6,34 +6,29 @@
 		<link rel="icon" href="../favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content="">
-	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-1857c006.css">
-	<link rel="modulepreload" href="/_app/start-811da1fe.js">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-6c0f53de.css">
+	<link rel="modulepreload" href="/_app/start-aab6fa1d.js">
 	<link rel="modulepreload" href="/_app/chunks/vendor-62c3b85b.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-1fde0dcb.js">
-	<link rel="modulepreload" href="/_app/pages/webdev/svelte/index.svelte-54e836c8.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-e9743212.js">
+	<link rel="modulepreload" href="/_app/pages/webdev/svelte/index.svelte-473a74c5.js">
 	</head>
 	<body>
 		<div>
 
 
-<header><div class="title_box"><span><table class="header_table"><tr class="svelte-27cjvy"><td id="logo" class="svelte-27cjvy">vkrnt</td> 
-              <td class="header_table_td svelte-27cjvy"><a href="/" class="svelte-27cjvy">Home   </a></td> 
-              <td class="header_table_td svelte-27cjvy"><a href="/about" class="svelte-27cjvy">About   </a></td> 
-              <td class="brightness svelte-27cjvy"><span id="dark_mode_button" title="dark mode" class="svelte-27cjvy">😎 </span>
-                      <span id="light_mode_button" title="light mode" class="svelte-27cjvy">🤓 </span></td></tr></table></span></div></header>
+<header><div class="title_box"><span><table class="header_table"><tr class="svelte-1sq09i4"><td id="logo" class="svelte-1sq09i4">vkrnt</td> 
+              <td class="header_table_td svelte-1sq09i4"><a href="/">Home   </a></td> 
+              <td class="header_table_td svelte-1sq09i4"><a href="/about">About   </a></td> 
+              <td class="brightness svelte-1sq09i4"><span id="dark_mode_button" title="dark mode" class="svelte-1sq09i4">😎 </span>
+                      <span id="light_mode_button" title="light mode" class="svelte-1sq09i4">🤓 </span></td></tr></table></span></div></header>
 
-<main><br><br>
+<main><main><br><br>
 
 <h2>Svelte + Svelte Kit notes</h2>
-
 I picked Svelte Kit in Jan 2022. Great framework to build node apps. I liked it so much that I moved this site from plain html+css site to Sveltei Kit. The framework is SEO friendly, pre-renders pages and allows rapid development of components and static pages. <br>
-<br>
-<br>
+
 
 <h3>Here are a few basic instructions to get started on Svelte Kit</h3>
-
-
-
 How to start a Svelte project<br>
 <div class="code">npm init svelte@next <name></name></div>
 <br>
@@ -41,25 +36,33 @@ How to build and deploy<br>
 <div class="code">npm install</div>
 <div class="code">npm run build</div>
 <div class="code">npm run dev&amp;</div> (to run npm in backgroud)
-<br><br>
+<br>
+<br>
 
-In case you run without ‘&amp;’ (in foreground), use right Ctrl and ‘c’ to terminate server and return to terminal prompt
-<br><br>
-Copy and push public folder to deploy to production<br><br>
+In case you run without ‘&amp;’ (in foreground), use CMD and &#39;c&#39; (or on Windows, right Ctrl and ‘c’) to terminate server and return to terminal prompt
+<br>
+<br>
+Copy and push public folder to deploy to production.
+<br>
+<br>
+<br>
 
-
-<br><br>
-
-
-Save layout to src/routes/__layout.svelte
+<h3>Sveltekit: How to create a common header, footer and page layout</h3>
+Save the styling and header, footer tags  to src/routes/__layout.svelte <br>
 This file should have the header, main and footer tags with elements common to all pages.
-Use &lt; slot &gt;    &lt; /slot &gt; for content specific to each page.
-In the individual pages, you don’t need to code the common elements. Jump directly to components and text specific to that page.
+Use &lt; slot &gt;    &lt; /slot &gt; for content specific to each page.<br><br>
+In the individual site pages, you don’t need to code the common elements. Jump directly to components and text specific to that page. The styling defined in __layout is automatically applied. <br><br><br>
 
- Save css to src/styles/global.css
-<br><br>
+<h3>Sveltekit: Creating common stylesheet. </h3>
+ Save css to src/styles/global.css <br>
+Now open the __layout file and add the following line in the script tag:<br>
+<div class="code">import &#39;../style/global.css&#39;
+</div> 
+<br>
+<br>
+
 <h3>Containarize your sveltkit site </h3>
-<br>Create a docker image of svelte kit code.
+Create a docker image of svelte kit code.
 <br><br>
 Steps:<br>
 1. Open package.json. Change adapter-auto to adapter-node<br>
@@ -87,24 +90,49 @@ Steps:<br>
     .gitignore <br>
     Dockerfile <br>
     README.md <br></div>
-<br><br><br>
-Good training on basics:<br>
-https://www.youtube.com/watch?v=ftiTVitDbx0&amp;list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&amp;index=4
-<br><br>
+<br>
+<br>
 
+<h3>Sveltekit: How to make an exception to the standard layout defined in __layout.svelte</h3>
+If you want a page to take on a skin that is different from the standard layout, create a page __layout.reset.svelte in the folder of the page. This applies the reset layout instead of the standard layout defined in __layout.svelte.
+<br>
+<br>
+<br>
+<h3>Sveltekit: How to define a component that can be accessed by any page</h3>
+Save your components in the lib folder. Let&#39;s say you are creating a component called &#39;title&#39; that can be called from any page. To create this component, create a file named title.svelte in the lib folder. Insert script, div and style in the file to shape the component. <br><br>
+Here&#39;s how to call the component in any page:<br>
+
+<div class="code">&lt; script &gt; <br>
+        import Title from &#39;$lib/title.svelte&#39; <br>
+    &lt; /script &gt; <br>
+<br><br>
+   &lt; header &gt;<br>
+        &lt; Title title=&#39;my title text&#39; &gt;<br>
+   &lt; /header &gt;<br></div>
+<br>
+<br>
+
+<h3>Sveltekit reference material:</h3>
+Good training on basics:<br>
+<a href="https://www.youtube.com/watch?v=9OlLxkaeVvw&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=1">The Net Ninja</a>
+<br>
+<br>
 Other references:
-https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog
-09 Feb 2022
-<br><br><br></main>
+<a href="https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog">Building a blog with Sveltekit</a>
+<br>
+<br>
+<br>
+<br>
+<br></main></main>
 <hr>
 <footer><p>The views expressed on this website are personal and do not represent the opinion of the author&#39;s employer/parent company. Links to third party web sites may be shared on this page. Those sites are unaffiliated with the employer. The employer has not been involved in the preparation of the content supplied at the unaffiliated site and does not guarantee or assume any responsibility for its content. -Vikrant Payal</p>
 </footer>
 
 
-		<script type="module" data-hydrate="1vc6hlx">
-		import { start } from "/_app/start-811da1fe.js";
+		<script type="module" data-hydrate="az1374">
+		import { start } from "/_app/start-aab6fa1d.js";
 		start({
-			target: document.querySelector('[data-hydrate="1vc6hlx"]').parentNode,
+			target: document.querySelector('[data-hydrate="az1374"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -114,8 +142,8 @@ https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/pages/__layout.svelte-1fde0dcb.js"),
-						import("/_app/pages/webdev/svelte/index.svelte-54e836c8.js")
+					import("/_app/pages/__layout.svelte-e9743212.js"),
+						import("/_app/pages/webdev/svelte/index.svelte-473a74c5.js")
 				],
 				url: new URL("http://sveltekit-prerender/webdev/svelte"),
 				params: {}

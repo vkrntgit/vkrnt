@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-811da1fe.js",
+    "file": "start-aab6fa1d.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -16,7 +16,6 @@
       "src/routes/infrastructure/containerization/cri.o/index.svelte",
       "src/routes/infrastructure/networking/concepts/index.svelte",
       "src/routes/infrastructure/cloud/linode/index.svelte",
-      "src/routes/infrastructure/cloud/cleo/index.svelte",
       "src/routes/development/go/index.svelte",
       "src/routes/telemetry/apache_skywalking/index.svelte",
       "src/routes/emerging/web3/index.svelte",
@@ -26,7 +25,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-1fde0dcb.js",
+    "file": "pages/__layout.svelte-e9743212.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -34,7 +33,7 @@
       "_vendor-62c3b85b.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-1857c006.css"
+      "assets/pages/__layout.svelte-6c0f53de.css"
     ],
     "assets": [
       "assets/roboto.light-ee435204.ttf",
@@ -51,7 +50,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-616d1b08.js",
+    "file": "pages/index.svelte-26ea3f4c.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -113,15 +112,6 @@
       "_vendor-62c3b85b.js"
     ]
   },
-  "src/routes/infrastructure/cloud/cleo/index.svelte": {
-    "file": "pages/infrastructure/cloud/cleo/index.svelte-683fe5f5.js",
-    "src": "src/routes/infrastructure/cloud/cleo/index.svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_vendor-62c3b85b.js"
-    ]
-  },
   "src/routes/development/go/index.svelte": {
     "file": "pages/development/go/index.svelte-07f416d5.js",
     "src": "src/routes/development/go/index.svelte",
@@ -150,7 +140,7 @@
     ]
   },
   "src/routes/webdev/svelte/index.svelte": {
-    "file": "pages/webdev/svelte/index.svelte-54e836c8.js",
+    "file": "pages/webdev/svelte/index.svelte-473a74c5.js",
     "src": "src/routes/webdev/svelte/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,

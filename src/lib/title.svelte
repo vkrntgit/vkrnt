@@ -36,19 +36,14 @@
 </div>
 
 <style>
-    a{ /* This is specific to title, hence not added to global.css */
-       color: light-blue;
-       text-decoration: #bdbdbd;
-    }
 
-    tr,td{
+   tr,td{
         border-width: 15px;
         border-style: none;
-        padding: 50px;
+        /* padding: 50px; */
     }
 
    #light_mode_button{
-      display: none;
       cursor: pointer;
       text-shadow: 1px 1px 4px #808080;
    }
@@ -58,6 +53,7 @@
   }
 
   #dark_mode_button{
+     display: none;
      cursor: pointer;
      text-shadow: 1px 1px 4px grey;
   }
