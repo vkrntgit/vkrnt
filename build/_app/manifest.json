@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-2482d481.js",
+    "file": "start-ad48a6c2.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -15,6 +15,7 @@
       "src/routes/infrastructure/containerization/docker/index.svelte",
       "src/routes/infrastructure/containerization/cri.o/index.svelte",
       "src/routes/infrastructure/networking/concepts/index.svelte",
+      "src/routes/infrastructure/hardware/cores.svelte",
       "src/routes/infrastructure/cloud/linode/index.svelte",
       "src/routes/development/go/index.svelte",
       "src/routes/telemetry/apache_skywalking/index.svelte",
@@ -97,6 +98,15 @@
   "src/routes/infrastructure/networking/concepts/index.svelte": {
     "file": "pages/infrastructure/networking/concepts/index.svelte-f6cc4de7.js",
     "src": "src/routes/infrastructure/networking/concepts/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-62c3b85b.js"
+    ]
+  },
+  "src/routes/infrastructure/hardware/cores.svelte": {
+    "file": "pages/infrastructure/hardware/cores.svelte-ea82df08.js",
+    "src": "src/routes/infrastructure/hardware/cores.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
