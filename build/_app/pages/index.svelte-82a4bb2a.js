@@ -1,0 +1,45 @@
+import{S as Yr,i as jr,s as qr,e,k as s,t as c,c as r,a as l,m as d,h as E,d as a,b as f,g as Xr,F as t,H as ur}from"../chunks/vendor-62c3b85b.js";function Zr(Vr){let o,Dt,gt,pt,At,Ct,X,Nt,Bt,G,mt,St,wt,It,Gt,Mt,kt,yt,Ot,Lt,Ht,xt,Kt,Pt,Wt,zt,Z,Ut,Ft,Jt,Qt,Vt,Yt,h,D,M,jt,qt,i,Xt,Zt,$t,te,ee,k,re,ae,le,oe,ne,se,g,y,de,ce,p,Ee,he,be,fe,ie,N,O,ve,Re,$,_e,Te,B,L,ue,De,tt,ge,pe,m,H,Ae,Ce,v,Ne,Be,me,Se,we,Ie,Ge,Me,ke,S,x,ye,Oe,et,Le,He,w,K,xe,Ke,rt,P,Pe,We,_,W,ze,Ue,A,z,Fe,Je,U,Qe,Ve,Ye,at,je,qe,I,F,Xe,Ze,lt,$e,tr,T,J,er,rr,ot,ar,lr,nt,or,nr,C,Q,sr,dr,V,Y,cr,Er,ht,hr,br,fr,ir,vr,Rr,_r;return{c(){o=e("main"),Dt=e("hr"),gt=s(),pt=e("br"),At=e("br"),Ct=s(),X=e("h2"),Nt=c("\u{1F4F0} \xA0 Blog"),Bt=s(),G=e("a"),mt=c("Learning is a fractal curve"),St=s(),wt=e("br"),It=s(),Gt=e("br"),Mt=s(),kt=e("br"),yt=s(),Ot=e("br"),Lt=s(),Ht=e("hr"),xt=s(),Kt=e("br"),Pt=s(),Wt=e("br"),zt=s(),Z=e("h2"),Ut=c("\u{1F5C4} \xA0Technology Slipbox"),Ft=c(`
+  My notes on development, CICD and infrastructure technologies and tools.
+  `),Jt=e("br"),Qt=s(),Vt=e("br"),Yt=s(),h=e("table"),D=e("tr"),M=e("td"),jt=c("CLOUD"),qt=s(),i=e("td"),Xt=c(`Linode- Great as a sandbox to learn cloud basics
+        `),Zt=e("br"),$t=c(`
+        GCP
+        `),te=e("br"),ee=s(),k=e("a"),re=c("AWS"),ae=s(),le=e("br"),oe=c(`
+        Azure
+        `),ne=e("br"),se=s(),g=e("tr"),y=e("td"),de=c("KUBERNETES"),ce=s(),p=e("td"),Ee=c(`RKE
+        `),he=e("br"),be=c(`
+        GKE
+        `),fe=e("br"),ie=s(),N=e("tr"),O=e("td"),ve=c("CONTAINERISATION"),Re=s(),$=e("td"),_e=c("Docker, Containerd, CRI.O"),Te=s(),B=e("tr"),L=e("td"),ue=c("CHAOS ENGINEERING"),De=s(),tt=e("td"),ge=c("Chaos Monkey, Litmus, Gremlin, ChaosMesh"),pe=s(),m=e("tr"),H=e("td"),Ae=c("DATABASES"),Ce=s(),v=e("td"),Ne=c(`MongoDb
+        `),Be=e("br"),me=c(`
+        Postgres
+        `),Se=e("br"),we=c(`
+        MySQL
+        `),Ie=e("br"),Ge=c(`
+        Couchebase
+        `),Me=e("br"),ke=s(),S=e("tr"),x=e("td"),ye=c("TELEMETRY"),Oe=s(),et=e("td"),Le=c("Apache Skywalking"),He=s(),w=e("tr"),K=e("td"),xe=c("NETWORKING"),Ke=s(),rt=e("td"),P=e("a"),Pe=c("Networking concepts"),We=s(),_=e("tr"),W=e("td"),ze=c("DEVELOPMENT"),Ue=s(),A=e("td"),z=e("a"),Fe=c("Go lang "),Je=c(`,
+        `),U=e("a"),Qe=c("Svelte + Sveltkit"),Ve=c(` \xA0 A great framework for
+        rapid web app development!`),Ye=s(),at=e("td"),je=c("Java"),qe=s(),I=e("tr"),F=e("td"),Xe=c("PERFORMANCE ENGINEERING"),Ze=s(),lt=e("td"),$e=c(`K6 - load testing tool, great for cli triggered runs and perf tests
+        integrated into the CICD pipeline.`),tr=s(),T=e("tr"),J=e("td"),er=c("HARDWARE"),rr=s(),ot=e("td"),ar=c("Cores"),lr=s(),nt=e("td"),or=c("Memory"),nr=s(),C=e("tr"),Q=e("td"),sr=c("EMERGING TECH"),dr=s(),V=e("td"),Y=e("a"),cr=c("Web3"),Er=c(` Decentralized block chain based development.
+        Scary yet interesting.
+      `),ht=e("td"),hr=s(),br=e("br"),fr=e("br"),ir=e("br"),vr=s(),Rr=e("br"),_r=e("br"),this.h()},l(st){o=r(st,"MAIN",{});var n=l(o);Dt=r(n,"HR",{}),gt=d(n),pt=r(n,"BR",{}),At=r(n,"BR",{}),Ct=d(n),X=r(n,"H2",{});var Dr=l(X);Nt=E(Dr,"\u{1F4F0} \xA0 Blog"),Dr.forEach(a),Bt=d(n),G=r(n,"A",{href:!0});var gr=l(G);mt=E(gr,"Learning is a fractal curve"),gr.forEach(a),St=d(n),wt=r(n,"BR",{}),It=d(n),Gt=r(n,"BR",{}),Mt=d(n),kt=r(n,"BR",{}),yt=d(n),Ot=r(n,"BR",{}),Lt=d(n),Ht=r(n,"HR",{}),xt=d(n),Kt=r(n,"BR",{}),Pt=d(n),Wt=r(n,"BR",{}),zt=d(n),Z=r(n,"H2",{});var pr=l(Z);Ut=E(pr,"\u{1F5C4} \xA0Technology Slipbox"),pr.forEach(a),Ft=E(n,`
+  My notes on development, CICD and infrastructure technologies and tools.
+  `),Jt=r(n,"BR",{}),Qt=d(n),Vt=r(n,"BR",{}),Yt=d(n),h=r(n,"TABLE",{class:!0});var b=l(h);D=r(b,"TR",{class:!0});var bt=l(D);M=r(bt,"TD",{class:!0});var Ar=l(M);jt=E(Ar,"CLOUD"),Ar.forEach(a),qt=d(bt),i=r(bt,"TD",{});var R=l(i);Xt=E(R,`Linode- Great as a sandbox to learn cloud basics
+        `),Zt=r(R,"BR",{}),$t=E(R,`
+        GCP
+        `),te=r(R,"BR",{}),ee=d(R),k=r(R,"A",{href:!0});var Cr=l(k);re=E(Cr,"AWS"),Cr.forEach(a),ae=d(R),le=r(R,"BR",{}),oe=E(R,`
+        Azure
+        `),ne=r(R,"BR",{}),R.forEach(a),bt.forEach(a),se=d(b),g=r(b,"TR",{class:!0});var ft=l(g);y=r(ft,"TD",{class:!0});var Nr=l(y);de=E(Nr,"KUBERNETES"),Nr.forEach(a),ce=d(ft),p=r(ft,"TD",{});var dt=l(p);Ee=E(dt,`RKE
+        `),he=r(dt,"BR",{}),be=E(dt,`
+        GKE
+        `),fe=r(dt,"BR",{}),dt.forEach(a),ft.forEach(a),ie=d(b),N=r(b,"TR",{});var it=l(N);O=r(it,"TD",{class:!0});var Br=l(O);ve=E(Br,"CONTAINERISATION"),Br.forEach(a),Re=d(it),$=r(it,"TD",{});var mr=l($);_e=E(mr,"Docker, Containerd, CRI.O"),mr.forEach(a),it.forEach(a),Te=d(b),B=r(b,"TR",{});var vt=l(B);L=r(vt,"TD",{class:!0});var Sr=l(L);ue=E(Sr,"CHAOS ENGINEERING"),Sr.forEach(a),De=d(vt),tt=r(vt,"TD",{});var wr=l(tt);ge=E(wr,"Chaos Monkey, Litmus, Gremlin, ChaosMesh"),wr.forEach(a),vt.forEach(a),pe=d(b),m=r(b,"TR",{});var Rt=l(m);H=r(Rt,"TD",{class:!0});var Ir=l(H);Ae=E(Ir,"DATABASES"),Ir.forEach(a),Ce=d(Rt),v=r(Rt,"TD",{});var u=l(v);Ne=E(u,`MongoDb
+        `),Be=r(u,"BR",{}),me=E(u,`
+        Postgres
+        `),Se=r(u,"BR",{}),we=E(u,`
+        MySQL
+        `),Ie=r(u,"BR",{}),Ge=E(u,`
+        Couchebase
+        `),Me=r(u,"BR",{}),u.forEach(a),Rt.forEach(a),ke=d(b),S=r(b,"TR",{});var _t=l(S);x=r(_t,"TD",{class:!0});var Gr=l(x);ye=E(Gr,"TELEMETRY"),Gr.forEach(a),Oe=d(_t),et=r(_t,"TD",{});var Mr=l(et);Le=E(Mr,"Apache Skywalking"),Mr.forEach(a),_t.forEach(a),He=d(b),w=r(b,"TR",{});var Tt=l(w);K=r(Tt,"TD",{class:!0});var kr=l(K);xe=E(kr,"NETWORKING"),kr.forEach(a),Ke=d(Tt),rt=r(Tt,"TD",{});var yr=l(rt);P=r(yr,"A",{href:!0});var Or=l(P);Pe=E(Or,"Networking concepts"),Or.forEach(a),yr.forEach(a),Tt.forEach(a),We=d(b),_=r(b,"TR",{});var j=l(_);W=r(j,"TD",{class:!0});var Lr=l(W);ze=E(Lr,"DEVELOPMENT"),Lr.forEach(a),Ue=d(j),A=r(j,"TD",{});var ct=l(A);z=r(ct,"A",{href:!0});var Hr=l(z);Fe=E(Hr,"Go lang "),Hr.forEach(a),Je=E(ct,`,
+        `),U=r(ct,"A",{href:!0});var xr=l(U);Qe=E(xr,"Svelte + Sveltkit"),xr.forEach(a),Ve=E(ct,` \xA0 A great framework for
+        rapid web app development!`),ct.forEach(a),Ye=d(j),at=r(j,"TD",{});var Kr=l(at);je=E(Kr,"Java"),Kr.forEach(a),j.forEach(a),qe=d(b),I=r(b,"TR",{});var ut=l(I);F=r(ut,"TD",{class:!0});var Pr=l(F);Xe=E(Pr,"PERFORMANCE ENGINEERING"),Pr.forEach(a),Ze=d(ut),lt=r(ut,"TD",{});var Wr=l(lt);$e=E(Wr,`K6 - load testing tool, great for cli triggered runs and perf tests
+        integrated into the CICD pipeline.`),Wr.forEach(a),ut.forEach(a),tr=d(b),T=r(b,"TR",{});var q=l(T);J=r(q,"TD",{class:!0});var zr=l(J);er=E(zr,"HARDWARE"),zr.forEach(a),rr=d(q),ot=r(q,"TD",{});var Ur=l(ot);ar=E(Ur,"Cores"),Ur.forEach(a),lr=d(q),nt=r(q,"TD",{});var Fr=l(nt);or=E(Fr,"Memory"),Fr.forEach(a),q.forEach(a),nr=d(b),C=r(b,"TR",{});var Et=l(C);Q=r(Et,"TD",{class:!0});var Jr=l(Q);sr=E(Jr,"EMERGING TECH"),Jr.forEach(a),dr=d(Et),V=r(Et,"TD",{});var Tr=l(V);Y=r(Tr,"A",{href:!0});var Qr=l(Y);cr=E(Qr,"Web3"),Qr.forEach(a),Er=E(Tr,` Decentralized block chain based development.
+        Scary yet interesting.
+      `),Tr.forEach(a),ht=r(Et,"TD",{}),l(ht).forEach(a),Et.forEach(a),b.forEach(a),hr=d(n),br=r(n,"BR",{}),fr=r(n,"BR",{}),ir=r(n,"BR",{}),vr=d(n),Rr=r(n,"BR",{}),_r=r(n,"BR",{}),n.forEach(a),this.h()},h(){f(G,"href","/blog/learning-is-a-fractal-curve"),f(M,"class","drawer_label"),f(k,"href","/infrastructure/cloud/aws/"),f(D,"class","drawer"),f(y,"class","drawer_label"),f(g,"class","drawer"),f(O,"class","drawer_label"),f(L,"class","drawer_label"),f(H,"class","drawer_label"),f(x,"class","drawer_label"),f(K,"class","drawer_label"),f(P,"href","/infrastructure/networking/concepts/"),f(W,"class","drawer_label"),f(z,"href","/development/go"),f(U,"href","/webdev/svelte"),f(F,"class","drawer_label"),f(J,"class","drawer_label"),f(Q,"class","drawer_label"),f(Y,"href","/emerging/web3"),f(h,"class","slipbox")},m(st,n){Xr(st,o,n),t(o,Dt),t(o,gt),t(o,pt),t(o,At),t(o,Ct),t(o,X),t(X,Nt),t(o,Bt),t(o,G),t(G,mt),t(o,St),t(o,wt),t(o,It),t(o,Gt),t(o,Mt),t(o,kt),t(o,yt),t(o,Ot),t(o,Lt),t(o,Ht),t(o,xt),t(o,Kt),t(o,Pt),t(o,Wt),t(o,zt),t(o,Z),t(Z,Ut),t(o,Ft),t(o,Jt),t(o,Qt),t(o,Vt),t(o,Yt),t(o,h),t(h,D),t(D,M),t(M,jt),t(D,qt),t(D,i),t(i,Xt),t(i,Zt),t(i,$t),t(i,te),t(i,ee),t(i,k),t(k,re),t(i,ae),t(i,le),t(i,oe),t(i,ne),t(h,se),t(h,g),t(g,y),t(y,de),t(g,ce),t(g,p),t(p,Ee),t(p,he),t(p,be),t(p,fe),t(h,ie),t(h,N),t(N,O),t(O,ve),t(N,Re),t(N,$),t($,_e),t(h,Te),t(h,B),t(B,L),t(L,ue),t(B,De),t(B,tt),t(tt,ge),t(h,pe),t(h,m),t(m,H),t(H,Ae),t(m,Ce),t(m,v),t(v,Ne),t(v,Be),t(v,me),t(v,Se),t(v,we),t(v,Ie),t(v,Ge),t(v,Me),t(h,ke),t(h,S),t(S,x),t(x,ye),t(S,Oe),t(S,et),t(et,Le),t(h,He),t(h,w),t(w,K),t(K,xe),t(w,Ke),t(w,rt),t(rt,P),t(P,Pe),t(h,We),t(h,_),t(_,W),t(W,ze),t(_,Ue),t(_,A),t(A,z),t(z,Fe),t(A,Je),t(A,U),t(U,Qe),t(A,Ve),t(_,Ye),t(_,at),t(at,je),t(h,qe),t(h,I),t(I,F),t(F,Xe),t(I,Ze),t(I,lt),t(lt,$e),t(h,tr),t(h,T),t(T,J),t(J,er),t(T,rr),t(T,ot),t(ot,ar),t(T,lr),t(T,nt),t(nt,or),t(h,nr),t(h,C),t(C,Q),t(Q,sr),t(C,dr),t(C,V),t(V,Y),t(Y,cr),t(V,Er),t(C,ht),t(o,hr),t(o,br),t(o,fr),t(o,ir),t(o,vr),t(o,Rr),t(o,_r)},p:ur,i:ur,o:ur,d(st){st&&a(o)}}}class ta extends Yr{constructor(o){super();jr(this,o,null,Zr,qr,{})}}export{ta as default};

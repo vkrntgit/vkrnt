@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-a7185d9b.js",
+    "file": "start-a0e74f3d.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -17,6 +17,8 @@
       "src/routes/infrastructure/networking/concepts/index.svelte",
       "src/routes/infrastructure/hardware/cores.svelte",
       "src/routes/infrastructure/cloud/linode/index.svelte",
+      "src/routes/infrastructure/cloud/aws/index.svelte",
+      "src/routes/infrastructure/cloud/aws/aws_ccp.svelte",
       "src/routes/development/go/index.svelte",
       "src/routes/telemetry/apache_skywalking/index.svelte",
       "src/routes/emerging/web3/index.svelte",
@@ -51,7 +53,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-8262a45e.js",
+    "file": "pages/index.svelte-82a4bb2a.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -105,7 +107,7 @@
     ]
   },
   "src/routes/infrastructure/hardware/cores.svelte": {
-    "file": "pages/infrastructure/hardware/cores.svelte-ea82df08.js",
+    "file": "pages/infrastructure/hardware/cores.svelte-78030f8e.js",
     "src": "src/routes/infrastructure/hardware/cores.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -116,6 +118,24 @@
   "src/routes/infrastructure/cloud/linode/index.svelte": {
     "file": "pages/infrastructure/cloud/linode/index.svelte-e293c6d6.js",
     "src": "src/routes/infrastructure/cloud/linode/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-62c3b85b.js"
+    ]
+  },
+  "src/routes/infrastructure/cloud/aws/index.svelte": {
+    "file": "pages/infrastructure/cloud/aws/index.svelte-e2ad9884.js",
+    "src": "src/routes/infrastructure/cloud/aws/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-62c3b85b.js"
+    ]
+  },
+  "src/routes/infrastructure/cloud/aws/aws_ccp.svelte": {
+    "file": "pages/infrastructure/cloud/aws/aws_ccp.svelte-c2833391.js",
+    "src": "src/routes/infrastructure/cloud/aws/aws_ccp.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
