@@ -28,7 +28,7 @@
         <br />
         GCP
         <br />
-        AWS
+        <a href="/infrastructure/cloud/aws/">AWS</a>
         <br />
         Azure
         <br />
@@ -47,6 +47,10 @@
     <tr>
       <td class="drawer_label"> CONTAINERISATION </td>
       <td> Docker, Containerd, CRI.O </td>
+    </tr>
+    <tr>
+      <td class="drawer_label"> CHAOS ENGINEERING </td>
+      <td> Chaos Monkey, Litmus, Gremlin, ChaosMesh </td>
     </tr>
 
     <tr>
@@ -81,16 +85,21 @@
         <a href="/development/go"> Go lang </a>,
         <a href="/webdev/svelte">Svelte + Sveltkit</a> &nbsp; A great framework for
         rapid web app development!
-      </td><td /></tr
-    >
+      </td>
+      <td>Java</td>
+    </tr>
 
     <tr>
       <td class="drawer_label"> PERFORMANCE ENGINEERING </td>
-      <td> K6 - load testing tool </td>
+      <td>
+        K6 - load testing tool, great for cli triggered runs and perf tests
+        integrated into the CICD pipeline.
+      </td>
     </tr>
     <tr>
       <td class="drawer_label">HARDWARE</td>
       <td> Cores </td>
+      <td> Memory</td>
     </tr>
     <tr>
       <td class="drawer_label"> EMERGING TECH </td>

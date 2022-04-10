@@ -10,4 +10,7 @@
   most computers are at least dual core. Now (2022) we have personal use computers
   with eight or sixteen core CPUs. High-end commercial use computers can have upwards
   of 64 cores.
+  <br><br>
+
+  
 </main>
