@@ -4,6 +4,10 @@
 <br />
 Certificate is valid for three years.
 <br /><br /><br />
+<h3>Main topics</h3>
+The certification tests you on cloud concepts, security, technology and billing.
+<br /><br /><br />
+
 <h3>Free resources material</h3>
 <a href="https://www.youtube.com/watch?v=3hLmDS179YE">freeCodeCamp.org</a>
 <br />
