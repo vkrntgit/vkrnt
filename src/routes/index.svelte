@@ -83,10 +83,10 @@
       <td class="drawer_label"> DEVELOPMENT </td>
       <td>
         <a href="/development/go"> Go lang </a>,
-        <a href="/webdev/svelte">Svelte + Sveltkit</a> &nbsp; A great framework for
-        rapid web app development!
-      </td>
-      <td>Java</td>
+        <a href="/webdev/svelte">Svelte + Sveltkit</a> &nbsp; A great framework
+        for rapid web app development!
+        <br />Java</td
+      >
     </tr>
 
     <tr>
@@ -98,8 +98,7 @@
     </tr>
     <tr>
       <td class="drawer_label">HARDWARE</td>
-      <td> Cores </td>
-      <td> Memory</td>
+      <td> Cores, Memory</td>
     </tr>
     <tr>
       <td class="drawer_label"> EMERGING TECH </td>

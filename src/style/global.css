@@ -48,6 +48,7 @@ a:visited {
 h1 {
   color: #cdcdcd;
   font-family: myHeaderFont;
+  text-shadow: 1px 1px 20px #808080;
 }
 
 h2 {
@@ -110,12 +111,4 @@ footer {
 .drawer_label {
   margin: auto;
   padding: 5em;
-}
-
-.tr:nth-child(odd) {
-  background-color: lightslategray;
-}
-
-.tr:nth-child(even) {
-  background-color: transparent;
 }

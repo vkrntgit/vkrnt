@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-1c0caeca.js",
+    "file": "start-bf4a2613.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -11,6 +11,7 @@
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/index.svelte",
       "src/routes/performance_engineering/service_virtualization/index.svelte",
+      "src/routes/certificates-wall.svelte",
       "src/routes/infrastructure/containerization/containerd/index.svelte",
       "src/routes/infrastructure/containerization/docker/index.svelte",
       "src/routes/infrastructure/containerization/cri.o/index.svelte",
@@ -28,7 +29,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-e9743212.js",
+    "file": "pages/__layout.svelte-926aabb9.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -36,7 +37,7 @@
       "_vendor-62c3b85b.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-ac0c4891.css"
+      "assets/pages/__layout.svelte-bfd39fa6.css"
     ],
     "assets": [
       "assets/roboto.light-ee435204.ttf",
@@ -53,7 +54,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-82a4bb2a.js",
+    "file": "pages/index.svelte-3590924e.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -64,6 +65,15 @@
   "src/routes/performance_engineering/service_virtualization/index.svelte": {
     "file": "pages/performance_engineering/service_virtualization/index.svelte-7a20cf28.js",
     "src": "src/routes/performance_engineering/service_virtualization/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-62c3b85b.js"
+    ]
+  },
+  "src/routes/certificates-wall.svelte": {
+    "file": "pages/certificates-wall.svelte-d249a03d.js",
+    "src": "src/routes/certificates-wall.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -179,7 +189,7 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-a9f26fd7.js",
+    "file": "pages/about.svelte-fe8af320.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -187,7 +197,7 @@
       "_vendor-62c3b85b.js"
     ],
     "css": [
-      "assets/pages/about.svelte-6a0b9d27.css"
+      "assets/pages/about.svelte-35a2d730.css"
     ]
   },
   "src/routes/blog/learning-is-a-fractal-curve.svelte": {
