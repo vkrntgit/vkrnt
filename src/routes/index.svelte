@@ -111,7 +111,7 @@
    
    <tr>
      <td class="SECURITY"></td>
-     <td>Seccomp, SE Linux, AppArmour</td>
+     <td>Seccomp, SE Linux / AppArmour</td>
    </tr>
    
     <tr>
