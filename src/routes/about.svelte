@@ -26,7 +26,10 @@
     charset="utf-8"></script>
   <br />
   <br /><br />
-  <small>More about me: <a href="/certificates-wall">Qualifications</a></small>
+  <small
+    >More about me: &nbsp; <a href="/certificates-wall">Qualifications</a
+    ></small
+  >
 </div>
 
 <style>

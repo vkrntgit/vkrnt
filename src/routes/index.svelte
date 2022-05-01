@@ -42,6 +42,7 @@
         <br />
         GKE
         <br />
+        <a href="/infrastructure/Training, certifications
       </td>
     </tr>
     <tr>
@@ -107,6 +108,22 @@
         Scary yet interesting.
       </td><td /></tr
     >
+   
+   <tr>
+     <td class="SECURITY"></td>
+     <td>Seccomp, SE Linux, AppArmour</td>
+   </tr>
+   
+    <tr>
+      <td class="drawer_label">
+          Flashcards, cheatsheets,  quick reference
+      </td>
+      <td>
+          <a href="/quickref/react">React</a>  <br>
+      </td>
+    </tr>
+
+   
   </table>
 
   <br /><br /><br />
