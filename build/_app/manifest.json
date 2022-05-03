@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-16e62721.js",
+    "file": "start-38605e92.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -15,6 +15,7 @@
       "src/routes/infrastructure/containerization/containerd/index.svelte",
       "src/routes/infrastructure/containerization/docker/index.svelte",
       "src/routes/infrastructure/containerization/cri.o/index.svelte",
+      "src/routes/infrastructure/kubernetes/index.svelte",
       "src/routes/infrastructure/networking/concepts/index.svelte",
       "src/routes/infrastructure/hardware/cores.svelte",
       "src/routes/infrastructure/cloud/linode/index.svelte",
@@ -23,6 +24,8 @@
       "src/routes/development/go/index.svelte",
       "src/routes/telemetry/apache_skywalking/index.svelte",
       "src/routes/emerging/web3/index.svelte",
+      "src/routes/quickref/css_cheatsheet.svelte",
+      "src/routes/quickref/react.svelte",
       "src/routes/webdev/svelte/index.svelte",
       "src/routes/about.svelte",
       "src/routes/blog/learning-is-a-fractal-curve.svelte"
@@ -54,7 +57,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-3590924e.js",
+    "file": "pages/index.svelte-d5bb9c62.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -101,6 +104,15 @@
   "src/routes/infrastructure/containerization/cri.o/index.svelte": {
     "file": "pages/infrastructure/containerization/cri.o/index.svelte-7f96c5bb.js",
     "src": "src/routes/infrastructure/containerization/cri.o/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-62c3b85b.js"
+    ]
+  },
+  "src/routes/infrastructure/kubernetes/index.svelte": {
+    "file": "pages/infrastructure/kubernetes/index.svelte-29ec61c5.js",
+    "src": "src/routes/infrastructure/kubernetes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -173,6 +185,24 @@
   "src/routes/emerging/web3/index.svelte": {
     "file": "pages/emerging/web3/index.svelte-685ac0d0.js",
     "src": "src/routes/emerging/web3/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-62c3b85b.js"
+    ]
+  },
+  "src/routes/quickref/css_cheatsheet.svelte": {
+    "file": "pages/quickref/css_cheatsheet.svelte-2339c6f8.js",
+    "src": "src/routes/quickref/css_cheatsheet.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-62c3b85b.js"
+    ]
+  },
+  "src/routes/quickref/react.svelte": {
+    "file": "pages/quickref/react.svelte-fb7a541a.js",
+    "src": "src/routes/quickref/react.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
