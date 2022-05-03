@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-38605e92.js",
+    "file": "start-084a75bc.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -75,7 +75,7 @@
     ]
   },
   "src/routes/certificates-wall.svelte": {
-    "file": "pages/certificates-wall.svelte-d249a03d.js",
+    "file": "pages/certificates-wall.svelte-c1733810.js",
     "src": "src/routes/certificates-wall.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -201,7 +201,7 @@
     ]
   },
   "src/routes/quickref/react.svelte": {
-    "file": "pages/quickref/react.svelte-fb7a541a.js",
+    "file": "pages/quickref/react.svelte-e810f24f.js",
     "src": "src/routes/quickref/react.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
